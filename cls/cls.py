@@ -10,3 +10,5 @@ class myclass:
 
 a = myclass()
 print(a.say_hello())
+b = myclass('amy')
+print(b.say_hello())
