@@ -5,7 +5,7 @@ class myclass:
         self.greeting = name + '!'
 
     def say_hello(self):
-        print('hello {0}'.format(self.greeting))
+        print('hello {first}'.format(first=self.greeting))
 
 
 a = myclass()
